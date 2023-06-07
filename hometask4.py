@@ -18,6 +18,17 @@ except Exception as error:
 # 2. Пользователь вводит с клавиатуры строку и символ для поиска. Посчитайте сколько раз в строке
 # встречается искомый символ. Полученное число выведите на экран.
 
+try:
+    text = input("Enter text: ")
+    symbol = input ("Enter symbol to search: ")
+    sum_symbols = 0
+    for i in text:
+        if i == symbol:
+            sum_symbols += 1
+    print("Num of searching symbols:", sum_symbols)
+except Exception as e:
+    print(e)
+
 # 3. Пользователь вводит с клавиатуры строку, слово для поиска, слово для замены. Произведите в
 # строке замену одного слова на другое. Полученную строку отобразите на экране.
 
