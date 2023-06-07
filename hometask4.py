@@ -7,6 +7,12 @@
 # 3. Пользователь вводит с клавиатуры строку, слово для поиска, слово для замены. Произведите в
 # строке замену одного слова на другое. Полученную строку отобразите на экране.
 
+text = input("Enter text: ")
+text_for_search = input ("Enter word for search: ")
+text_for_replacement = input("Enter word for replacement: ")
+text = text.replace(text_for_search, text_for_replacement)
+print(text)
+
 # 4. Дана строка. (сделать срезы)
 #
 # - Сначала выведите третий символ этой строки.
