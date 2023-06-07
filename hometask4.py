@@ -1,6 +1,20 @@
 # 1. Пользователь вводит с клавиатуры строку. Посчитайте количество букв, цифр в строке.
 # Выведите оба количества на экран. (использовать цикл)
 
+try:
+    text = input("Enter text: ")
+    numbers = 0
+    letters = 0
+    for i in text:
+        if i.isalpha():
+            letters += 1
+        if i.isdigit():
+            numbers += 1
+    print("Num of letters:", letters)
+    print("Num of numbers:", numbers)
+except Exception as error:
+    print(error)
+
 # 2. Пользователь вводит с клавиатуры строку и символ для поиска. Посчитайте сколько раз в строке
 # встречается искомый символ. Полученное число выведите на экран.
 
