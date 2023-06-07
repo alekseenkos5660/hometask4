@@ -95,87 +95,87 @@
 # Вывести на экран фигуры, заполненные звездочками.
 # Диалог с пользователем реализовать при помощи меню.
 
-try:
-    choose = int(input("Choose num from 1 to 9 to see the to see different shapes: "))
-    if choose == 1:
-        print("Your choosen shape is: ")
-        i = "*"
-        while i < "*" * 15:
-            print(i.center(14))
-            i += "**"
-    if choose == 2:
-        print("Your choosen shape is: ")
-        i = "*"
-        while i < "*" * 15:
-            print(i.rjust(14))
-            i += "**"
-    if choose == 3:
-        print("Your choosen shape is: ")
-        i = "*"
-        while i < "*" * 15:
-            print(i.ljust(14))
-            i += "**"
-    if choose == 4:
-        print("Your choosen shape is: ")
-        i = 15
-        while i > 0:
-            print((i * "*").ljust(15))
-            i -= 2
-    if choose == 5:
-        print("Your choosen shape is: ")
-        i = 15
-        while i > 0:
-            print((i * "*").rjust(15))
-            i -= 2
-    if choose == 6:
-        print("Your choosen shape is: ")
-        i = 15
-        while i > 0:
-            print((i * "*").center(15))
-            i -= 2
-    if choose == 7:
-        print("Your choosen shape is: ")
-        i = -1
-        while True:
-            i += 2
-            if i > 9:
-                break
-            print((i * "*").rjust(9))
-        i = 9
-        while True:
-            i -= 2
-            if i < 1:
-                break
-            print((i * "*").rjust(9))
-    if choose == 8:
-        print("Your choosen shape is: ")
-        i = 2
-        while True:
-            i += 2
-            if i > 9:
-                break
-            print((i * "*").ljust(9))
-        i = 9
-        while True:
-            i -= 2
-            if i < 1:
-                break
-            print((i * "*").ljust(9))
-    if choose == 9:
-        print("Your choosen shape is: ")
-        i = 11
-        while True:
-            i -= 2
-            if i < 0:
-                break
-            print((i * "*").center(9))
-        i = 1
-        while True:
-            i += 2
-            if i >9:
-                break
-            print((i * "*").center(9))
-    else:
-        raise Exception("Please select a number from 1 to 9")
-except Exception as e:
-    print(e)
+# try:
+#     choose = int(input("Choose num from 1 to 9 to see the to see different shapes: "))
+#     if choose == 1:
+#         print("Your choosen shape is: ")
+#         i = "*"
+#         while i < "*" * 15:
+#             print(i.center(14))
+#             i += "**"
+#     if choose == 2:
+#         print("Your choosen shape is: ")
+#         i = "*"
+#         while i < "*" * 15:
+#             print(i.rjust(14))
+#             i += "**"
+#     if choose == 3:
+#         print("Your choosen shape is: ")
+#         i = "*"
+#         while i < "*" * 15:
+#             print(i.ljust(14))
+#             i += "**"
+#     if choose == 4:
+#         print("Your choosen shape is: ")
+#         i = 15
+#         while i > 0:
+#             print((i * "*").ljust(15))
+#             i -= 2
+#     if choose == 5:
+#         print("Your choosen shape is: ")
+#         i = 15
+#         while i > 0:
+#             print((i * "*").rjust(15))
+#             i -= 2
+#     if choose == 6:
+#         print("Your choosen shape is: ")
+#         i = 15
+#         while i > 0:
+#             print((i * "*").center(15))
+#             i -= 2
+#     if choose == 7:
+#         print("Your choosen shape is: ")
+#         i = -1
+#         while True:
+#             i += 2
+#             if i > 9:
+#                 break
+#             print((i * "*").rjust(9))
+#         i = 9
+#         while True:
+#             i -= 2
+#             if i < 1:
+#                 break
+#             print((i * "*").rjust(9))
+#     if choose == 8:
+#         print("Your choosen shape is: ")
+#         i = 2
+#         while True:
+#             i += 2
+#             if i > 9:
+#                 break
+#             print((i * "*").ljust(9))
+#         i = 9
+#         while True:
+#             i -= 2
+#             if i < 1:
+#                 break
+#             print((i * "*").ljust(9))
+#     if choose == 9:
+#         print("Your choosen shape is: ")
+#         i = 11
+#         while True:
+#             i -= 2
+#             if i < 0:
+#                 break
+#             print((i * "*").center(9))
+#         i = 1
+#         while True:
+#             i += 2
+#             if i >9:
+#                 break
+#             print((i * "*").center(9))
+#     else:
+#         raise Exception("Please select a number from 1 to 9")
+# except Exception as e:
+#     print(e)
