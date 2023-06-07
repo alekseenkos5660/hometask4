@@ -51,6 +51,17 @@ print(text)
 # - В восьмой строке выведите все символы строки через один в обратном порядке, начиная с последнего.
 # - В девятой строке выведите длину данной строки.
 
+text = input("Enter text: ")
+print("Third character of a string:", "\n\t",  text[2])
+print("Penultimate character of a string:", "\n\t", text[-2])
+print("First five characters of a string:", "\n\t",  text[:5])
+print("The entire string except the last two characters:", "\n\t",  text[:-2])
+print("All characters with even indices:", "\n\t",  text[::2])
+print("All characters with odd indices:", "\n\t",  text[1::2])
+print("All characters in reverse order:", "\n\t",  text[::-1])
+print("All characters of the string in reverse order. Through one:", "\n\t",  text[-1::-2])
+print("Line length:", "\n\t",  len(text))
+
 # Дополнительно:
 #
 # Есть некоторый текст. Реализуйте следующую функциональность:
