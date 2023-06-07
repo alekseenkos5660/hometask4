@@ -27,3 +27,25 @@
 # ■ Посчитайте сколько раз цифры встречаются в тексте;
 # ■ Посчитайте сколько раз знаки препинания встречаются в тексте;
 # ■ Посчитайте количество восклицательных знаков в тексте.
+
+try:
+    text = input("Enter text: ")
+    numbers = 0
+    letters = 0
+    exclamation_mark = 0
+    for i in text:
+        if i.isalpha():
+            letters += 1
+        if i.isdigit():
+            numbers += 1
+        if i == "!":
+            exclamation_mark += 1
+        if i.endswith("."):
+            print(text.title())
+        elif i.endswith(".!?..."):
+            print(text.title())
+    print("Num of letters:", letters)
+    print("Num of digits:", numbers)
+    print("Num of exclamation mark:", exclamation_mark)
+except Exception as error:
+    print("Error:", error)
