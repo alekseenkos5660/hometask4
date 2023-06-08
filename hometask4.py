@@ -103,37 +103,37 @@
 #         while i < "*" * 15:
 #             print(i.center(14))
 #             i += "**"
-#     if choose == 2:
+#     elif choose == 2:
 #         print("Your choosen shape is: ")
 #         i = "*"
 #         while i < "*" * 15:
 #             print(i.rjust(14))
 #             i += "**"
-#     if choose == 3:
+#     elif choose == 3:
 #         print("Your choosen shape is: ")
 #         i = "*"
 #         while i < "*" * 15:
 #             print(i.ljust(14))
 #             i += "**"
-#     if choose == 4:
+#     elif choose == 4:
 #         print("Your choosen shape is: ")
 #         i = 15
 #         while i > 0:
 #             print((i * "*").ljust(15))
 #             i -= 2
-#     if choose == 5:
+#     elif choose == 5:
 #         print("Your choosen shape is: ")
 #         i = 15
 #         while i > 0:
 #             print((i * "*").rjust(15))
 #             i -= 2
-#     if choose == 6:
+#     elif choose == 6:
 #         print("Your choosen shape is: ")
 #         i = 15
 #         while i > 0:
 #             print((i * "*").center(15))
 #             i -= 2
-#     if choose == 7:
+#     elif choose == 7:
 #         print("Your choosen shape is: ")
 #         i = -1
 #         while True:
@@ -147,7 +147,7 @@
 #             if i < 1:
 #                 break
 #             print((i * "*").rjust(9))
-#     if choose == 8:
+#     elif choose == 8:
 #         print("Your choosen shape is: ")
 #         i = 2
 #         while True:
@@ -161,7 +161,7 @@
 #             if i < 1:
 #                 break
 #             print((i * "*").ljust(9))
-#     if choose == 9:
+#     elif choose == 9:
 #         print("Your choosen shape is: ")
 #         i = 11
 #         while True:
@@ -175,7 +175,7 @@
 #             if i >9:
 #                 break
 #             print((i * "*").center(9))
-#     if choose == 10:
+#     elif choose == 10:
 #         print("Your choosen shape is: ")
 #         i_1 = 0
 #         i_2 = 0
