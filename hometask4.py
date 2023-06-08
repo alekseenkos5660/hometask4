@@ -194,6 +194,6 @@
 #                 break
 #             print((i_1 * "*").ljust(9), (i_2 * "*").rjust(9))
 #     else:
-#         raise Exception("Please select a number from 1 to 9")
+#         raise Exception("Please select a number from 1 to 10")
 # except Exception as e:
 #     print(e)
