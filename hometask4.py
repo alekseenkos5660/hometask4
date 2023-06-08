@@ -96,7 +96,7 @@
 # Диалог с пользователем реализовать при помощи меню.
 
 # try:
-#     choose = int(input("Choose num from 1 to 10 to see the to see different shapes: "))
+#     choose = int(input("Choose num from 1 to 10 to see the different shapes: "))
 #     if choose == 1:
 #         print("Your choosen shape is: ")
 #         i = "*"
